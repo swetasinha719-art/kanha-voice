@@ -1,0 +1,29 @@
+body {
+  margin:0;
+  display:flex;
+  font-family:Arial;
+}
+
+.sidebar {
+  width:220px;
+  background:#2f3136;
+  color:white;
+  padding:20px;
+}
+
+.main {
+  flex:1;
+  background:#36393f;
+  color:white;
+  padding:30px;
+}
+
+button {
+  background:#5865f2;
+  border:none;
+  padding:10px;
+  margin:5px;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
